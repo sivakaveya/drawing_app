@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    background: url(images/bg.jpg) center center fixed;
+    background-size: cover;
+}
+#header{
+    background: rgba( 221, 50, 3, 0.7);
+    height: 80px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 3em;
+    line-height: 1.75;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.inputContainer{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.input{
+    height: 30px;
+    font-size: 1.3em
+}
+#slider{
+    margin: 10px auto;
+}
+#circle{
+    height: 3px;
+    width: 3px;
+    border-radius: 100px;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+#paintColor{
+    background: #FFF9E6;
+    border-radius: 20px;
+    width: 133px;
+    border: 1px solid #fc8020;
+}
+#thicknessInput{
+    position: relative; 
+}
+/*container canvas*/
+#container{
+    width: 505px;
+    height: 405px;
+    border: 2.5px solid #E66126;
+    margin: 10px auto;
+}
+#paint{
+    background: white;
+    cursor: crosshair;
+}
+
+.inputContainer2{
+    width: 399px;
+    margin: 0 auto;
+}
+.input2{
+    width: 133px;
+    color: #E66126;
+    font-size: 1.3em;
+    float: left;
+    margin-top: 10px;
+}
+.button{
+    background: #FFF9E6;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #E66126;
+    border-radius: 5px;
+    box-shadow: 2px 4px rgba(230, 97, 38,0.7);
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+.button:hover{
+    color: #FFF9E6;
+    background: #E66126;
+    border: 1px solid #FFF9E6;
+}
+.button:active{
+    top: 4px;
+    box-shadow: 2px 0 rgba(230, 97, 38,0.7);
+}
+
+.eraseMode{
+    background-color: red;
+    color: #FFF9E6;
+    border: 1px solid #FFF9E6;
+    box-shadow: 2px 0 rgba(230, 97, 38,0.7);
+    top: 4px;
+}
+
